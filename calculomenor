@@ -1,0 +1,8 @@
+int calculamenor(int *a, int n) {
+int i, menor;
+menor = a[0];
+for(i = 1; i < n; i++) {
+if(a[i] < menor) menor = a[i];
+}
+return menor;
+}
